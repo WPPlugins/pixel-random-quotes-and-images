@@ -1,0 +1,57 @@
+.qutoes-table{
+	width:100%;
+	padding: 10px;
+}
+.qutoes-table span{
+	color:red;
+	font-weight:bold;
+}
+.qutoes-table th{
+	padding: 10px;
+	border-top:1px solid #ccc;
+	font-size:1.5em;
+	color:grey;
+	background:#eeeeee;
+	text-align:left;
+}
+.pixel_ok th{
+	background:#d0ffc7 !important;
+	text-align:center;
+}
+.pixel_title th{
+	background:#cfe6ff !important;
+}
+.pixel_alert, .pixel_ok{
+	width:50%;
+	margin-left:25%;
+}
+.pixel_alert th{
+	background:#ff602f !important;
+	color:white !important;
+}
+.pixel_alert td{
+	background:#eeeeee;
+	border:1px solid #ccc;
+}
+.pix_line:hover{
+	background:#cfe6ff;
+}
+.qutoes-table td{
+	padding: 10px;
+	border-top:1px solid #ccc;
+}
+.pix_input input {
+	width:100%;
+}
+.pix_input input:focus, .pix_input textarea:focus {
+	background:#cfe6ff;
+}
+#save, #upload, #delete, #yes, #no{
+	padding:5px 10px 5px 10px;
+}
+#save:hover, #delete:hover, #upload:hover, #no:hover{
+	background:#cfe6ff;
+}
+#yes:hover{
+	background:#ff602f;
+}

@@ -1,0 +1,48 @@
+.pix_quote_img_container {
+	overflow:hidden;
+	position:relative;
+	line-height:0 !important;
+	margin:5px;
+	
+}
+.pix_quote_img_title {
+	position:absolute;
+	bottom:0;
+	padding:5px 0 5px 5px;
+	width:100%;
+	margin:0;
+	background:black;
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	opacity: 0.5;
+	color:white;
+	font-weight:bold;
+	line-height:1;
+	display:inline;
+}
+.pix_left_margin{
+	float:left;
+	width:95%;
+	line-height:1.2;
+}
+.pix_quote_img_title a{
+	line-height:0;
+}
+.pix_quote_img_container img{
+	max-width:100% !important;
+	max-height:100% !important;
+	line-height:1px !important;
+	padding:0 !important;
+	margin:0 !important;
+}
+
+.pix_quote_text_container{
+	margin:5px;
+	font-style:italic;
+}
+.pix_quote_text_author{
+	margin-top:0;
+	margin-bottom:2px;
+	font-style:italic;
+	text-align:right;
+}
